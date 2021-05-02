@@ -38,10 +38,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'employee_register',
-    'crispy_forms'
+    
 ]
 
-CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -80,9 +80,9 @@ WSGI_APPLICATION = 'employee_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'EmployeeDB',
+        'NAME': 'EmpMan',
         'USER': 'postgres',
-        'PASSWORD': 'postgres',
+        'PASSWORD': '8885815155Sri',
         'HOST': 'localhost'
     }
 }
